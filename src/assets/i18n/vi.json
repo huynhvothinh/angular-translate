@@ -1,0 +1,5 @@
+{
+    "hello":"Translate: xin chao ROOT",
+    "variable1": "Translate: ten toi la {{name}}",
+    "messageRoot": "Translate by variable: goi toi tu code {{email}}"
+}

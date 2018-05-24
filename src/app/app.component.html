@@ -1,0 +1,16 @@
+<div>
+  <!-- translation: translation pipe -->
+  <h1 [innerHTML]="'hello' | translate"></h1> 
+  
+  <router-outlet></router-outlet>
+
+  <p>{{'variable1' | translate:user}}</p> 
+
+  <h3>{{message}}</h3>
+
+  <a routerLink="/">Login</a> | 
+  <a routerLink="/register">Register</a>
+
+  <button (click)="useLanguage('en')">en</button>
+  <button (click)="useLanguage('vi')">vi</button>
+</div>

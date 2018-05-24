@@ -1,0 +1,6 @@
+{
+    "register":{
+        "hello":"Translate: hello REGISTER"
+    },
+    "message": "Translate by variable: successfully REGISTER"
+}
